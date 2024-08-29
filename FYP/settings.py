@@ -31,7 +31,6 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
-    'polls.apps.PollsConfig',
     'debug_toolbar',
     'django.contrib.admin',
     'django.contrib.auth',
@@ -39,7 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'Test_Website',
+    'Test_Website'
 ]
 
 MIDDLEWARE = [

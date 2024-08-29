@@ -21,6 +21,6 @@ from debug_toolbar.toolbar import debug_toolbar_urls
 # You should always use include() when you include other URL patterns. admin.site.urls is the only exception to this.
 urlpatterns = [
     
-    path("polls/", include("polls.urls")),
-    path('admin/', admin.site.urls)
+    path('admin/', admin.site.urls),
+    path('',include("Test_Website.urls")),
 ] + debug_toolbar_urls()
